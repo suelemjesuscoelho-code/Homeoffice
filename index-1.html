@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Home Office na Prática — Aprenda a Trabalhar de Casa</title>
+<meta name="description" content="Descubra formas reais de trabalhar de casa pela internet, use o celular ou computador, aprenda os primeiros passos e conheça o Guia Completo de Home Office.">
+<meta name="keywords" content="home office, trabalhar de casa, trabalho remoto, renda online, freelancer, marketing digital, trabalhar pelo celular, guia home office">
+<meta name="author" content="homeoffice.br">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.homeoffice.br/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="https://www.homeoffice.br/">
+<meta property="og:site_name" content="homeoffice.br">
+<meta property="og:title" content="Aprenda Como Trabalhar de Home Office | homeoffice.br">
+<meta property="og:description" content="Descubra formas reais de trabalhar de casa pela internet, use o celular ou computador, aprenda os primeiros passos e conheça o Guia Completo de Home Office.">
+<meta property="og:image" content="https://www.homeoffice.br/assets/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aprenda Como Trabalhar de Home Office | homeoffice.br">
+<meta name="twitter:description" content="Descubra formas reais de trabalhar de casa pela internet e conheça o Guia Completo de Home Office.">
+<meta name="twitter:image" content="https://www.homeoffice.br/assets/og-cover.jpg">
+
+<!-- Favicon -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+
+<!-- Dados estruturados (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "homeoffice.br",
+  "url": "https://www.homeoffice.br/",
+  "description": "Conteúdo educacional sobre como trabalhar de home office, trabalho remoto e oportunidades online.",
+  "inLanguage": "pt-BR"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"Preciso ter experiência?","acceptedAnswer":{"@type":"Answer","text":"Não é obrigatório. Muitas áreas aceitam iniciantes, mas leva tempo até desenvolver as habilidades necessárias."}},
+    {"@type":"Question","name":"Posso começar apenas com o celular?","acceptedAnswer":{"@type":"Answer","text":"Sim. Diversas atividades, como criação de conteúdo e atendimento, podem ser feitas totalmente pelo smartphone."}},
+    {"@type":"Question","name":"Preciso investir dinheiro para começar?","acceptedAnswer":{"@type":"Answer","text":"Não necessariamente. Existem caminhos com baixo ou nenhum investimento inicial, embora ferramentas pagas possam ajudar depois."}},
+    {"@type":"Question","name":"Quanto posso ganhar trabalhando de casa?","acceptedAnswer":{"@type":"Answer","text":"Não há valor garantido. Os ganhos variam conforme a área, o esforço, o mercado e a consistência de cada pessoa."}},
+    {"@type":"Question","name":"Quais habilidades devo aprender primeiro?","acceptedAnswer":{"@type":"Answer","text":"Comunicação, organização básica e familiaridade com ferramentas digitais são um bom ponto de partida."}},
+    {"@type":"Question","name":"Home office é realmente possível para iniciantes?","acceptedAnswer":{"@type":"Answer","text":"Sim, mas exige aprendizado, prática e paciência. Não é um processo instantâneo."}}
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F7F8FC; --surface:#FFFFFF; --ink:#0F1222; --muted:#5B6072;
+    --blue:#2A5CE0; --purple:#7A3FE0; --line:#E7E9F3;
+    --grad: linear-gradient(135deg, var(--blue), var(--purple));
+    box-sizing:border-box;
+    padding-top: env(safe-area-inset-top,0px);
+    padding-bottom: env(safe-area-inset-bottom,0px);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){ --bg:#0F1222; --surface:#171A2B; --ink:#F1F2F8; --muted:#A6ABC2; --line:#2A2E45; }
+  }
+  :root[data-theme="dark"]{ --bg:#0F1222; --surface:#171A2B; --ink:#F1F2F8; --muted:#A6ABC2; --line:#2A2E45; }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth; scroll-padding-top: env(safe-area-inset-top,0px);}
+  body{background:var(--bg); color:var(--ink); font-family:'Inter',sans-serif; line-height:1.6; overflow-x:hidden;}
+  h1,h2,h3{font-family:'Sora',sans-serif; letter-spacing:-0.02em;}
+  a{color:inherit; text-decoration:none;}
+  img,svg{max-width:100%;}
+  .wrap{max-width:1140px; margin:0 auto; padding:0 24px;}
+  section{padding:88px 0;}
+  @media(max-width:640px){section{padding:56px 0;}}
+
+  /* HEADER */
+  header{position:sticky; top:0; z-index:50; background:color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom:1px solid var(--line);}
+  nav{display:flex; align-items:center; justify-content:space-between; padding:16px 24px; max-width:1140px; margin:0 auto;}
+  .logo{font-family:'Sora',sans-serif; font-weight:800; font-size:1.2rem;}
+  .logo span{background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .nav-links{display:flex; gap:28px; align-items:center;}
+  .nav-links a{font-size:.95rem; font-weight:500; color:var(--muted); transition:color .2s;}
+  .nav-links a:hover{color:var(--ink);}
+  .nav-cta{background:var(--grad); color:#fff !important; padding:10px 20px; border-radius:10px; font-weight:600; font-size:.9rem;}
+  .burger{display:none; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; padding:6px;}
+  .burger span{width:24px; height:2px; background:var(--ink); border-radius:2px;}
+  #mobileMenu{display:none; flex-direction:column; gap:4px; padding:8px 24px 20px;}
+  #mobileMenu a{padding:12px 0; border-bottom:1px solid var(--line); color:var(--ink); font-weight:500;}
+  @media(max-width:860px){
+    .nav-links{display:none;}
+    .burger{display:flex;}
+    #mobileMenu.open{display:flex;}
+  }
+
+  /* HERO */
+  .hero{padding-top:64px;}
+  .hero .wrap{display:grid; grid-template-columns:1.1fr 1fr; gap:56px; align-items:center;}
+  @media(max-width:900px){.hero .wrap{grid-template-columns:1fr;}}
+  .eyebrow{display:inline-block; font-size:.85rem; font-weight:600; color:var(--blue); background:color-mix(in srgb, var(--blue) 12%, transparent); padding:6px 14px; border-radius:999px; margin-bottom:18px;}
+  .hero h1{font-size:clamp(2.1rem,5vw,3.4rem); font-weight:800; line-height:1.08; margin-bottom:20px;}
+  .hero p.lead{font-size:1.1rem; color:var(--muted); max-width:520px; margin-bottom:32px;}
+  .btn-row{display:flex; gap:14px; flex-wrap:wrap;}
+  .btn{display:inline-flex; align-items:center; justify-content:center; padding:15px 26px; border-radius:12px; font-weight:600; font-size:.98rem; cursor:pointer; border:none; transition:transform .18s ease, box-shadow .18s ease;}
+  .btn-primary{background:var(--grad); color:#fff; box-shadow:0 10px 24px -8px rgba(122,63,224,.5);}
+  .btn-primary:hover{transform:translateY(-2px); box-shadow:0 14px 28px -8px rgba(122,63,224,.6);}
+  .btn-secondary{background:var(--surface); color:var(--ink); border:1px solid var(--line);}
+  .btn-secondary:hover{transform:translateY(-2px); border-color:var(--blue);}
+  .hero-visual{position:relative; aspect-ratio:1/1; border-radius:28px; background:var(--grad); display:flex; align-items:center; justify-content:center; overflow:hidden;}
+  .hero-visual .glow{position:absolute; inset:0; background:radial-gradient(circle at 30% 20%, rgba(255,255,255,.25), transparent 60%);}
+  .hero-visual .laptop{font-size:6rem;}
+  .float-card{position:absolute; background:var(--surface); border-radius:14px; padding:12px 16px; font-size:.85rem; font-weight:600; box-shadow:0 12px 30px -10px rgba(0,0,0,.25); display:flex; align-items:center; gap:8px;}
+  .float-card.one{top:12%; left:-8%;}
+  .float-card.two{bottom:14%; right:-6%;}
+
+  /* SECTION HEADS */
+  .sec-head{max-width:640px; margin-bottom:48px;}
+  .sec-head h2{font-size:clamp(1.6rem,3.4vw,2.2rem); font-weight:800; margin-bottom:14px;}
+  .sec-head p{color:var(--muted); font-size:1.02rem;}
+
+  /* CARD GRID */
+  .grid{display:grid; gap:20px;}
+  .grid-4{grid-template-columns:repeat(4,1fr);}
+  .grid-3{grid-template-columns:repeat(3,1fr);}
+  .grid-2{grid-template-columns:repeat(2,1fr);}
+  @media(max-width:900px){.grid-4{grid-template-columns:repeat(2,1fr);} .grid-3{grid-template-columns:repeat(2,1fr);}}
+  @media(max-width:560px){.grid-4,.grid-3,.grid-2{grid-template-columns:1fr;}}
+
+  .card{background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:26px; transition:transform .2s ease, box-shadow .2s ease;}
+  .card:hover{transform:translateY(-4px); box-shadow:0 16px 32px -14px rgba(20,20,50,.18);}
+  .card .ic{font-size:1.8rem; margin-bottom:14px; display:inline-block;}
+  .card h3{font-size:1.05rem; font-weight:700; margin-bottom:8px;}
+  .card p{color:var(--muted); font-size:.92rem;}
+
+  .num-card{background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:22px; position:relative;}
+  .num-card .n{font-family:'Sora',sans-serif; font-weight:800; font-size:1.6rem; background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent; margin-bottom:10px; display:block;}
+
+  .alt{background:var(--surface); border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
+
+  /* TIMELINE */
+  .timeline{display:flex; flex-direction:column; gap:0; border-left:2px solid var(--line); margin-left:14px; padding-left:32px;}
+  .t-item{position:relative; padding:22px 0;}
+  .t-item::before{content:""; position:absolute; left:-40px; top:26px; width:14px; height:14px; border-radius:50%; background:var(--grad);}
+  .t-item h3{font-size:1.05rem; font-weight:700; margin-bottom:4px;}
+  .t-item p{color:var(--muted); font-size:.94rem;}
+
+  /* MOBILE HIGHLIGHT */
+  .mobile-sec .wrap{display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center;}
+  @media(max-width:900px){.mobile-sec .wrap{grid-template-columns:1fr;}}
+  .phone-mock{background:var(--grad); border-radius:32px; padding:14px; max-width:280px; margin:0 auto;}
+  .phone-inner{background:var(--surface); border-radius:22px; padding:24px 18px; display:flex; flex-direction:column; gap:12px;}
+  .phone-inner .row{display:flex; align-items:center; gap:10px; font-size:.85rem; font-weight:600; padding:10px 12px; background:var(--bg); border-radius:10px;}
+
+  /* AI SECTION */
+  .ai-sec{background:var(--grad); color:#fff; border-radius:28px; margin:0 24px; padding:60px 40px;}
+  @media(max-width:640px){.ai-sec{padding:40px 22px; margin:0 16px;}}
+  .ai-sec .sec-head p{color:rgba(255,255,255,.85);}
+  .ai-sec h2{color:#fff;}
+  .ai-sec .card{background:rgba(255,255,255,.1); border-color:rgba(255,255,255,.2); backdrop-filter:blur(4px);}
+  .ai-sec .card h3{color:#fff;}
+  .ai-sec .card p{color:rgba(255,255,255,.85);}
+
+  /* OFFER */
+  .offer{display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center; background:var(--surface); border:1px solid var(--line); border-radius:28px; padding:48px; box-shadow:0 20px 50px -20px rgba(20,20,50,.15);}
+  @media(max-width:900px){.offer{grid-template-columns:1fr; padding:32px;}}
+  .offer ul{list-style:none; margin:20px 0 28px;}
+  .offer li{padding:8px 0; font-size:.98rem; display:flex; gap:10px;}
+  .offer li::before{content:"✓"; color:var(--blue); font-weight:700;}
+  .ebook-mock{aspect-ratio:3/4; border-radius:18px; background:var(--grad); display:flex; align-items:center; justify-content:center; box-shadow:0 24px 50px -18px rgba(122,63,224,.5); position:relative; overflow:hidden;}
+  .ebook-mock::after{content:"📘"; font-size:5rem;}
+  .ebook-mock .tag{position:absolute; top:16px; left:16px; background:rgba(255,255,255,.2); color:#fff; font-size:.75rem; font-weight:700; padding:6px 12px; border-radius:999px;}
+
+  /* TESTIMONIALS */
+  .testi{background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:26px;}
+  .testi p.quote{font-size:.98rem; margin-bottom:16px; color:var(--ink);}
+  .testi .who{display:flex; align-items:center; gap:10px;}
+  .avatar{width:38px; height:38px; border-radius:50%; background:var(--grad); display:flex; align-items:center; justify-content:center; color:#fff; font-weight:700; font-size:.9rem;}
+  .who .name{font-weight:600; font-size:.9rem;}
+  .who .tag2{font-size:.78rem; color:var(--muted);}
+
+  /* FAQ */
+  .faq-item{border-bottom:1px solid var(--line);}
+  .faq-q{width:100%; text-align:left; background:none; border:none; padding:20px 0; font-size:1rem; font-weight:600; color:var(--ink); display:flex; justify-content:space-between; align-items:center; cursor:pointer; font-family:inherit;}
+  .faq-a{max-height:0; overflow:hidden; transition:max-height .25s ease; color:var(--muted); font-size:.94rem;}
+  .faq-a p{padding-bottom:18px;}
+  .faq-item.open .faq-a{max-height:200px;}
+  .faq-plus{font-size:1.3rem; transition:transform .25s ease; color:var(--blue);}
+  .faq-item.open .faq-plus{transform:rotate(45deg);}
+
+  /* FINAL CTA */
+  .final-cta{background:var(--ink); color:var(--bg); border-radius:28px; margin:0 24px; padding:64px 32px; text-align:center;}
+  @media(max-width:640px){.final-cta{margin:0 16px; padding:44px 22px;}}
+  .final-cta h2{font-size:clamp(1.6rem,4vw,2.4rem); margin-bottom:16px; color:inherit;}
+  .final-cta p{color:color-mix(in srgb, var(--bg) 70%, transparent); max-width:480px; margin:0 auto 28px;}
+
+  footer{padding:56px 0 32px; border-top:1px solid var(--line);}
+  .foot-grid{display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:32px; margin-bottom:32px;}
+  @media(max-width:640px){.foot-grid{grid-template-columns:1fr;}}
+  .foot-grid h4{font-size:.85rem; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); margin-bottom:14px;}
+  .foot-grid a{display:block; padding:5px 0; font-size:.92rem; color:var(--muted);}
+  .foot-grid a:hover{color:var(--ink);}
+  .foot-bottom{display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; font-size:.85rem; color:var(--muted); border-top:1px solid var(--line); padding-top:24px;}
+
+  .reveal{opacity:0; transform:translateY(16px); transition:opacity .5s ease, transform .5s ease;}
+  .reveal.show{opacity:1; transform:none;}
+  @media(prefers-reduced-motion:reduce){ *{transition:none !important;} }
+  :focus-visible{outline:2px solid var(--blue); outline-offset:2px;}
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">home<span>office</span>.br</div>
+    <div class="nav-links">
+      <a href="#inicio">Início</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#oportunidades">Oportunidades</a>
+      <a href="#guia">Guia</a>
+      <a href="#faq">FAQ</a>
+      <a href="#guia" class="nav-cta">Quero começar</a>
+    </div>
+    <button class="burger" aria-label="Abrir menu" onclick="document.getElementById('mobileMenu').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div id="mobileMenu">
+    <a href="#inicio">Início</a>
+    <a href="#como-funciona">Como funciona</a>
+    <a href="#oportunidades">Oportunidades</a>
+    <a href="#guia">Guia</a>
+    <a href="#faq">FAQ</a>
+  </div>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Educação digital para trabalho remoto</span>
+      <h1>Aprenda como trabalhar de home office</h1>
+      <p class="lead">Descubra maneiras de trabalhar pela internet, organize sua rotina e dê os primeiros passos para construir uma renda trabalhando de casa — pelo computador ou pelo celular.</p>
+      <div class="btn-row">
+        <a href="#guia" class="btn btn-primary">Quero começar agora</a>
+        <a href="#como-funciona" class="btn btn-secondary">Ver como funciona</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="glow"></div>
+      <span class="laptop">💻</span>
+      <div class="float-card one">📅 Rotina organizada</div>
+      <div class="float-card two">📶 Trabalhe de qualquer lugar</div>
+    </div>
+  </div>
+</section>
+
+<section id="aprender">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>O que você vai aprender</h2>
+      <p>Uma base completa para entender as possibilidades do trabalho remoto antes de escolher seu caminho.</p>
+    </div>
+    <div class="grid grid-4">
+      <div class="card reveal"><span class="ic">💻</span><h3>Trabalho remoto</h3><p>Fundamentos para atuar à distância com organização e profissionalismo.</p></div>
+      <div class="card reveal"><span class="ic">📱</span><h3>Trabalhar pelo celular</h3><p>Atividades que podem ser feitas inteiramente do smartphone.</p></div>
+      <div class="card reveal"><span class="ic">🤖</span><h3>Ferramentas de IA</h3><p>Como usar inteligência artificial para ganhar tempo e qualidade.</p></div>
+      <div class="card reveal"><span class="ic">📈</span><h3>Marketing digital</h3><p>Noções para divulgar serviços, produtos e conteúdos online.</p></div>
+      <div class="card reveal"><span class="ic">✍️</span><h3>Freelancing</h3><p>Como prestar serviços por projeto para diferentes clientes.</p></div>
+      <div class="card reveal"><span class="ic">🛒</span><h3>Produtos digitais</h3><p>Introdução à criação e venda de infoprodutos.</p></div>
+      <div class="card reveal"><span class="ic">🎥</span><h3>Criação de conteúdo</h3><p>Bases para produzir vídeos, posts e materiais online.</p></div>
+      <div class="card reveal"><span class="ic">💰</span><h3>Estratégias de renda</h3><p>Formas de estruturar diferentes fontes de renda online.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="oportunidades">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Formas de trabalhar de casa</h2>
+      <p>Cada caminho tem características próprias. Os resultados dependem de esforço, habilidades, mercado e consistência — não existe fórmula garantida.</p>
+    </div>
+    <div class="grid grid-4">
+      <div class="card reveal"><span class="ic">🧑‍💻</span><h3>Freelancer</h3><p>Ofereça serviços pontuais em plataformas especializadas.</p></div>
+      <div class="card reveal"><span class="ic">📢</span><h3>Marketing digital</h3><p>Ajude negócios a se divulgarem na internet.</p></div>
+      <div class="card reveal"><span class="ic">🔗</span><h3>Afiliados</h3><p>Divulgue produtos de terceiros e receba comissões por venda.</p></div>
+      <div class="card reveal"><span class="ic">🎬</span><h3>Criação de conteúdo</h3><p>Produza vídeos, artigos ou posts para diferentes públicos.</p></div>
+      <div class="card reveal"><span class="ic">🛍️</span><h3>Produtos digitais</h3><p>Crie e venda e-books, cursos ou modelos prontos.</p></div>
+      <div class="card reveal"><span class="ic">🧩</span><h3>Serviços online</h3><p>Ofereça consultorias, design, redação e outros serviços.</p></div>
+      <div class="card reveal"><span class="ic">🎧</span><h3>Atendimento remoto</h3><p>Atue no suporte ou relacionamento com clientes à distância.</p></div>
+      <div class="card reveal"><span class="ic">🤖</span><h3>Ferramentas de IA</h3><p>Use IA como apoio em diversas dessas atividades.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="como-funciona">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Comece do zero</h2>
+      <p>Um caminho estruturado para sair da ideia e chegar à prática.</p>
+    </div>
+    <div class="timeline">
+      <div class="t-item reveal"><span class="n" style="font-family:'Sora',sans-serif;font-weight:800;color:var(--blue)">01</span><h3>Escolha uma área</h3><p>Identifique um caminho que combine com seu perfil e interesse.</p></div>
+      <div class="t-item reveal"><span class="n" style="font-family:'Sora',sans-serif;font-weight:800;color:var(--blue)">02</span><h3>Aprenda as habilidades necessárias</h3><p>Estude o essencial antes de oferecer seu trabalho ao mercado.</p></div>
+      <div class="t-item reveal"><span class="n" style="font-family:'Sora',sans-serif;font-weight:800;color:var(--blue)">03</span><h3>Monte seu perfil ou portfólio</h3><p>Reúna exemplos e informações que mostrem o que você sabe fazer.</p></div>
+      <div class="t-item reveal"><span class="n" style="font-family:'Sora',sans-serif;font-weight:800;color:var(--blue)">04</span><h3>Encontre oportunidades</h3><p>Busque clientes, plataformas e canais para se apresentar.</p></div>
+      <div class="t-item reveal"><span class="n" style="font-family:'Sora',sans-serif;font-weight:800;color:var(--blue)">05</span><h3>Comece a prestar serviços ou vender</h3><p>Dê o primeiro passo prático, mesmo em pequena escala.</p></div>
+      <div class="t-item reveal"><span class="n" style="font-family:'Sora',sans-serif;font-weight:800;color:var(--blue)">06</span><h3>Melhore seus resultados</h3><p>Ajuste sua estratégia com base na prática e no aprendizado contínuo.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt mobile-sec">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Sem precisar de computador</span>
+      <h2 style="font-size:clamp(1.6rem,3.4vw,2.2rem); font-weight:800; margin-bottom:16px;">Trabalhe direto pelo celular</h2>
+      <p style="color:var(--muted); margin-bottom:24px;">Várias atividades de home office podem ser feitas inteiramente do smartphone, no seu tempo.</p>
+      <div class="grid grid-2">
+        <div class="card reveal"><span class="ic">🎬</span><h3>Criação de conteúdo</h3></div>
+        <div class="card reveal"><span class="ic">💬</span><h3>Atendimento de clientes</h3></div>
+        <div class="card reveal"><span class="ic">📲</span><h3>Redes sociais</h3></div>
+        <div class="card reveal"><span class="ic">✂️</span><h3>Edição de vídeos</h3></div>
+        <div class="card reveal"><span class="ic">🤖</span><h3>Ferramentas de IA</h3></div>
+        <div class="card reveal"><span class="ic">📣</span><h3>Divulgação de produtos</h3></div>
+      </div>
+    </div>
+    <div class="phone-mock reveal">
+      <div class="phone-inner">
+        <div class="row">🎬 Editando vídeo curto</div>
+        <div class="row">💬 Respondendo cliente</div>
+        <div class="row">📲 Agendando post</div>
+        <div class="row">🤖 Gerando ideias com IA</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="ai-sec">
+      <div class="sec-head">
+        <h2>Use a inteligência artificial a seu favor</h2>
+        <p>Ferramentas de IA ajudam a criar textos, imagens e ideias de conteúdo, além de organizar tarefas e ganhar produtividade no dia a dia.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card reveal"><span class="ic">✨</span><h3>Criar</h3><p>Gere textos, imagens e roteiros com apoio da IA.</p></div>
+        <div class="card reveal"><span class="ic">🗂️</span><h3>Organizar</h3><p>Estruture tarefas, prazos e prioridades com mais clareza.</p></div>
+        <div class="card reveal"><span class="ic">⚙️</span><h3>Produzir</h3><p>Ganhe velocidade e qualidade na entrega dos trabalhos.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="guia">
+  <div class="wrap">
+    <div class="offer">
+      <div>
+        <span class="eyebrow">Material completo</span>
+        <h2 style="font-size:clamp(1.5rem,3.2vw,2rem); font-weight:800; margin-bottom:16px;">Guia completo: como trabalhar de home office</h2>
+        <ul>
+          <li>Guia para iniciantes</li>
+          <li>Estratégias para começar</li>
+          <li>Ideias de trabalhos online</li>
+          <li>Ferramentas úteis</li>
+          <li>Checklist para começar</li>
+          <li>Passo a passo prático</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Quero acessar o guia</a>
+      </div>
+      <div class="ebook-mock reveal"><span class="tag">E-book digital</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>O que dizem sobre a experiência</h2>
+      <p>Depoimentos ilustrativos, criados apenas como exemplo de demonstração.</p>
+    </div>
+    <div class="grid grid-3">
+      <div class="testi reveal">
+        <p class="quote">"Finalmente consegui entender por onde começar no trabalho online."</p>
+        <div class="who"><div class="avatar">M</div><div><div class="name">Mariana S.</div><div class="tag2">Exemplo de depoimento</div></div></div>
+      </div>
+      <div class="testi reveal">
+        <p class="quote">"O passo a passo me ajudou a organizar minha rotina em casa."</p>
+        <div class="who"><div class="avatar">R</div><div><div class="name">Rafael T.</div><div class="tag2">Exemplo de depoimento</div></div></div>
+      </div>
+      <div class="testi reveal">
+        <p class="quote">"Comecei devagar, usando só o celular, e fui aprendendo aos poucos."</p>
+        <div class="who"><div class="avatar">C</div><div><div class="name">Camila O.</div><div class="tag2">Exemplo de depoimento</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="faq">
+  <div class="wrap" style="max-width:760px;">
+    <div class="sec-head">
+      <h2>Perguntas frequentes</h2>
+    </div>
+    <div id="faqList">
+      <div class="faq-item">
+        <button class="faq-q">Preciso ter experiência? <span class="faq-plus">+</span></button>
+        <div class="faq-a"><p>Não é obrigatório. Muitas áreas aceitam iniciantes, mas leva tempo até desenvolver as habilidades necessárias.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Posso começar apenas com o celular? <span class="faq-plus">+</span></button>
+        <div class="faq-a"><p>Sim. Diversas atividades, como criação de conteúdo e atendimento, podem ser feitas totalmente pelo smartphone.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Preciso investir dinheiro para começar? <span class="faq-plus">+</span></button>
+        <div class="faq-a"><p>Não necessariamente. Existem caminhos com baixo ou nenhum investimento inicial, embora ferramentas pagas possam ajudar depois.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Quanto posso ganhar trabalhando de casa? <span class="faq-plus">+</span></button>
+        <div class="faq-a"><p>Não há valor garantido. Os ganhos variam conforme a área, o esforço, o mercado e a consistência de cada pessoa.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Quais habilidades devo aprender primeiro? <span class="faq-plus">+</span></button>
+        <div class="faq-a"><p>Comunicação, organização básica e familiaridade com ferramentas digitais são um bom ponto de partida.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Home office é realmente possível para iniciantes? <span class="faq-plus">+</span></button>
+        <div class="faq-a"><p>Sim, mas exige aprendizado, prática e paciência. Não é um processo instantâneo.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="final-cta">
+      <h2>Seu próximo passo pode começar hoje</h2>
+      <p>Aprenda, pratique e descubra qual oportunidade de trabalho online combina com você.</p>
+      <a href="#guia" class="btn btn-primary">Começar agora</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="logo">home<span>office</span>.br</div>
+        <p style="color:var(--muted); font-size:.9rem; margin-top:12px; max-width:280px;">Conteúdo educacional sobre trabalho remoto e oportunidades online.</p>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <a href="#inicio">Início</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#oportunidades">Oportunidades</a>
+        <a href="#guia">Guia</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div>
+        <h4>Institucional</h4>
+        <a href="#">Termos de Uso</a>
+        <a href="#">Política de Privacidade</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 homeoffice.br — Todos os direitos reservados.</span>
+      <span>Feito para quem quer aprender a trabalhar de casa.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Mobile menu closes on link click
+  document.querySelectorAll('#mobileMenu a').forEach(a=>a.addEventListener('click',()=>document.getElementById('mobileMenu').classList.remove('open')));
+
+  // FAQ accordion
+  document.querySelectorAll('.faq-q').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const item = btn.parentElement;
+      const wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));
+      if(!wasOpen) item.classList.add('open');
+    });
+  });
+
+  // Reveal on scroll
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target); } });
+  },{threshold:0.15});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
